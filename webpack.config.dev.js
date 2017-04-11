@@ -64,7 +64,9 @@ module.exports = {
           /\.gif$/,
           /\.jpe?g$/,
           /\.png$/,
-          /\.svg$/
+          /\.svg$/,
+          /\.woff$/,
+          /\.woff2$/
         ],
         loader: 'file-loader',
         options: {
@@ -80,6 +82,15 @@ module.exports = {
         options: {
           limit: 10000,
           name: 'static/media/[name].[hash:8].[ext]',
+        }
+      },
+      // Process fonts
+      {
+        test: [/\.woff$/, /\.woff2$/],
+        loader: 'url-loader',
+        options: {
+          limit: 5000,
+          prefix: 'font'
         }
       },
       // Process JS with Babel
