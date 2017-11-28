@@ -2,9 +2,9 @@
 
 It includes:
 
-* Webpack 2
+* Webpack 3
   * in development, Webpack Dev Server + HMR (css/js)
-* React (+ React Router) and Redux
+* React 16 (+ React Router) and Redux
 * PostCSS
   * [normalize.css](https://github.com/necolas/normalize.css)
   * [autoprefixer](https://github.com/postcss/autoprefixer)
