@@ -1,6 +1,6 @@
 {
   "name": "react-redux-min-starter",
-  "version": "1.0.0",
+  "version": "2.0.0",
   "description": "A simple starter to build React/Redux applications",
   "main": "index.js",
   "license": "MIT",
@@ -30,8 +30,8 @@
     "jsdom": "^9.12.0",
     "mocha": "^3.2.0",
     "postcss-loader": "^1.3.3",
-    "react-addons-test-utils": "^15.4.2",
-    "react-hot-loader": "next",
+    "react-addons-test-utils": "^15.6.2",
+    "react-hot-loader": "3.1.3",
     "style-loader": "^0.14.1",
     "url-loader": "^0.5.8",
     "webpack": "^2.2.1",
@@ -47,9 +47,9 @@
     "postcss-custom-media": "^5.0.1",
     "postcss-import": "^9.1.0",
     "postcss-nested": "^1.0.0",
-    "react": "^15.4.2",
-    "react-dom": "^15.4.2",
-    "react-redux": "^5.0.3",
+    "react": "^16.1.1",
+    "react-dom": "^16.1.1",
+    "react-redux": "^5.0.6",
     "react-router": "^4.0.0",
     "redux": "^3.6.0"
   }
